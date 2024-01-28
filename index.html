@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="">
+</head>
+
+<body>
+    <div id="loading">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+    </div>
+    <header id="home">
+        <div class="overlay">
+            <div class="sideContent">
+                <a href="#" class="btn btn-warning text-white close"><i class="fa-solid fa-sun"></i></a>
+                <div class="sidenav" id="leftMenu">
+                    <a onclick="getHome()" class="active">Home</a>
+                    <a onclick="showSearch(); ">Search</a>
+                    <a onclick="getCategories(); ">Categories</a>
+                    <a onclick="getArea(); " >Area</a>
+                    <a onclick="getIngred(); ">Ingredients</a>
+                    <a onclick="contactUs();">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+<section>
+    <div class="container   " id="search">
+       
+    </div>
+    <div class="position-relative">
+        <div class="container">
+            <div class="row py-5 g-4 " id="mainData">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/demos.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/category.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/Area.js"></script>
+<script src="js/Ingredients.js"></script>
+</body>
+</html>
